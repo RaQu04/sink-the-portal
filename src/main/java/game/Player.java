@@ -5,7 +5,7 @@ import lombok.Getter;
 @Getter
 public class Player {
     private String name;
-    private static int repeat;
+
 
     public Player(String name) {
     }
@@ -14,10 +14,8 @@ public class Player {
         if (!board[a - 1][b].equals("[X]")) {
             board[a - 1][b] = "[X]";
         }else {
-            System.out.println("Błąd");
+            System.out.println("Błąd, byłeś już na tym polu!");
         }
-
-        repeat++;
 
     }
 }

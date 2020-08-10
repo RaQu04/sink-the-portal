@@ -3,16 +3,34 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a13ffae4-43da-4ced-8f18-37247ac04957" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZatopPortalGame.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/game/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/game/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/game/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/game/Portal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/Portal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/game/Game.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/game/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/game/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/game/Portal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/game/Portal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/game/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/game/Player.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +48,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1fv39Prn7mZxIOOFFkcdhLuJbao" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,22 +89,45 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1739" height="348" key="GridCell.Tab.0.bottom" timestamp="1597087606978">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1450" height="517" key="GridCell.Tab.0.bottom" timestamp="1597098445749">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state width="1450" height="517" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1597098445749" />
     <state width="1739" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1597087606978" />
-    <state width="1739" height="348" key="GridCell.Tab.0.center" timestamp="1597087606978">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1450" height="517" key="GridCell.Tab.0.center" timestamp="1597098445749">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state width="1450" height="517" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1597098445749" />
     <state width="1739" height="348" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1597087606978" />
-    <state width="1739" height="348" key="GridCell.Tab.0.left" timestamp="1597087606978">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1450" height="517" key="GridCell.Tab.0.left" timestamp="1597098445749">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state width="1450" height="517" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1597098445749" />
     <state width="1739" height="348" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1597087606978" />
-    <state width="1739" height="348" key="GridCell.Tab.0.right" timestamp="1597087606978">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1450" height="517" key="GridCell.Tab.0.right" timestamp="1597098445749">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state width="1450" height="517" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1597098445749" />
     <state width="1739" height="348" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1597087606978" />
+    <state x="343" y="147" key="IDE.errors.dialog" timestamp="1597095264790">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="343" y="147" key="IDE.errors.dialog/0.0.1536.864@0.0.1536.864" timestamp="1597095264790" />
+    <state x="425" y="176" width="672" height="678" key="search.everywhere.popup" timestamp="1597094589172">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="176" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1597094589172" />
   </component>
 </project>

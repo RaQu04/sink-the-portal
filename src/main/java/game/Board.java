@@ -39,7 +39,5 @@ public class Board {
     }
 
 
-    public static void playerMove(String[][] board, int a, int b) {
-        board[a - 1][b] = "[X]";
-    }
+
 }
