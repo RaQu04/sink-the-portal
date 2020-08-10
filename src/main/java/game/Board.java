@@ -8,7 +8,7 @@ public class Board {
         this.field = field;
     }
 
-    public void createBoard() {
+    public String[][] createBoard() {
         String[][] board = new String[field][field];
 
         for (int i = 0; i < board.length; i++) {
@@ -25,12 +25,21 @@ public class Board {
         }
 
         board[field - 1][0] = " ";
+        return board;
+    }
 
+    public static void printBoard(String[][] board) {
         for (String[] ints : board) {
             for (int j = 0; j < board.length; j++) {
                 System.out.format("%2s ", ints[j]);
             }
             System.out.println();
         }
+        System.out.println();
+    }
+
+
+    public static void playerMove(String[][] board, int a, int b) {
+        board[a - 1][b] = "[X]";
     }
 }
