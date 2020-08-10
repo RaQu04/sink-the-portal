@@ -10,6 +10,8 @@ public class Game {
     static Board board = new Board(8);
     static String[][] tab = board.createBoard();
 
+    static Portal onet = new Portal("onet.pl");
+
 
     public static void setPortal(String[][] board) {
         int random = (int) (Math.random() * 2) + 1;
@@ -29,9 +31,12 @@ public class Game {
 
     public static void checkPortalSunk(Portal portal) {
         //TODO
+
+
     }
 
     public static void startGame(Player player) {
+        boolean result = false;
         setPortal(tab);
 
         while (true) {
@@ -40,9 +45,8 @@ public class Game {
             int a = scanner.nextInt();
             int b = scanner.nextInt();
             playerMove(tab, a, b);
-
-
             printBoard(tab);
+
 
         }
 

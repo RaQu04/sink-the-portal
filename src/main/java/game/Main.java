@@ -8,11 +8,8 @@ import static game.Player.playerMove;
 public class Main {
     public static void main(String[] args) {
 
-        Portal onet = new Portal("onet.pl");
         Player lukas = new Player("Lukas");
 
         startGame(lukas);
-
-
     }
 }
